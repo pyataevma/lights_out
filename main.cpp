@@ -356,7 +356,7 @@ void add_congratulation(Board* B, ExchangeVariable* EV, ColoredText* T)
 void request_parameters(Parameters* P, ExchangeVariable* EV)
 {
     system("cls");
-    cout << correctEncoding("Game settings \"Switchboard\".\n");
+    cout << correctEncoding("Game settings \"Lights out (special edition)\".\n");
     cout << correctEncoding("A new game will start after the changes.\n");
     cout << correctEncoding("Specify the board size (even number from 4 to 10) -> ");
     cin >> P->board_size; // input validation will be added later
@@ -369,7 +369,7 @@ void request_parameters(Parameters* P, ExchangeVariable* EV)
 void display_introduction()
 {
     system("cls");
-    cout << correctEncoding("\nGame \"Switchboard\".\n\n");
+    cout << correctEncoding("\nGame \"Lights out (special edition)\".\n\n");
     cout << correctEncoding("The goal of the game is to turn off all the switch-indicators on the control panel.\n");
     cout << correctEncoding("The challenge is that when switching any indicator, its state\n");
     cout << correctEncoding("also changes all indicators in the same row\nand column.\n\n");
