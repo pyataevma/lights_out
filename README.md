@@ -21,13 +21,9 @@ This implementation is designed for educational purposes.
    ```sh
    git clone https://github.com/pyataevma/lights_out.git
    ```
-2. Navigate to the project directory:
+2. Compile the source code:
    ```sh
-   cd lights-out-console
-   ```
-3. Compile the source code:
-   ```sh
-   gcc -o lights_out main.c
+   gcc -o lights_out main.cpp
    ```
 
 ### Running the Game
@@ -47,18 +43,11 @@ Follow the on-screen instructions to play the game.
 - **ESC**: Open the main menu.
 - **Q**: Quit the game.
 
-## File Structure
-
-- `main.c`: Contains the main logic and entry point of the application.
-- `board.c` / `board.h`: Handles board generation, display, and manipulation.
-- `menu.c` / `menu.h`: Implements menu navigation and user interactions.
-- `utils.c` / `utils.h`: Utility functions for input handling, encoding, etc.
 
 ## Customization
 
-You can customize the game settings by modifying the `Parameters` structure in the `main.c` file. For example:
 - Change the default board size.
-- Enable or disable step tracking.
+- Enable or disable displaying number of steps in optimal solution.
 
 ## License
 
