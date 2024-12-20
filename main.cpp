@@ -370,17 +370,15 @@ void display_introduction()
 {
     system("cls");
     cout << correctEncoding("\nGame \"Lights out (special edition)\".\n\n");
-    cout << correctEncoding("The goal of the game is to turn off all the switch-indicators on the control panel.\n");
-    cout << correctEncoding("The challenge is that when switching any indicator, its state\n");
-    cout << correctEncoding("also changes all indicators in the same row\nand column.\n\n");
+    cout << correctEncoding("The goal of the game is to turn off all the indicators on the control panel.\n");
+    cout << correctEncoding("But when you switch any indicator, all the indicators in the same row and the same column are switched too.\n\n");
     cout << correctEncoding("Press any key.\n");
     _getch();
 }
 
 void display_goodbye()
 {
-    system("cls");
-    cout << correctEncoding("\nGoodbye!\n");
+    system("cls");    cout << correctEncoding("\nGoodbye!\n");
 }
 
 
